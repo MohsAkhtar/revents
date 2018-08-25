@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button } from 'semantic-ui-react';
+import EventDashboard from '../../features/event/EventDashboard/EventDashboard'
 
 
 class App extends Component {
@@ -7,11 +7,7 @@ class App extends Component {
     return (
       <div>
         <h1>Re-vents</h1>
-        <button className="ui icon button">
-        <i className="smile icon"></i>
-        CSS Button
-        </button>
-        <Button icon="smile" content="React Button"></Button>
+        <EventDashboard></EventDashboard>
       </div>
     );
   }
